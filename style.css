@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+#main #nav {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+#main #nav h1 {
+  font-size: 25px;
+}
+#main #nav h1 i {
+  margin-right: 10px;
+}
+#main #nav #part2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#main #nav #part2 h4 {
+  margin: 0 15px;
+}
+#main #nav #part2 img {
+  width: 160px;
+}
+#main #nav #part2 .line {
+  height: 3px;
+  width: 70px;
+  background-color: red;
+}
+#main #center {
+  height: calc(100% - 100px);
+  width: 100%;
+  background-color: black;
+  display: flex;
+}
+#main #center #one {
+  height: 100%;
+  width: 36%;
+  padding: 160px 80px;
+}
+#main #center #one h1 {
+  font-size: 55px;
+  line-height: 65px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+#main #center #one h1 span {
+  color: red;
+  font-weight: 500;
+}
+#main #center #one p {
+  font-size: 17px;
+  width: 70%;
+  margin-bottom: 50px;
+}
+#main #center #one button {
+  background-color: red;
+  padding: 20px 40px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#main #center #one button i {
+  margin-right: 7px;
+}
+#main #center #two {
+  height: 100%;
+  width: 28%;
+  background-color: blue;
+}
+#main #center #three {
+  height: 100%;
+  width: 36%;
+  background-color: violet;
+}/*# sourceMappingURL=style.css.map */
